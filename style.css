@@ -1691,15 +1691,10 @@ img {
     overflow: hidden;
   }
 
-  .video {
-    position: absolute;
-    z-index: -1;
-    opacity: 0.78;
-    widows: 80%;
-    width: 80% !important;
-    height: auto !important;
-    margin: 0 auto;
-  }
+.video {
+    max-width: 100%;
+    height: auto;
+}
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
